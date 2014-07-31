@@ -8,7 +8,7 @@
     border:0 none;
   }
 
-  [src$='/t.gif']{
+  [src$="/t.gif"]{
     display: none;
   }
   td{
@@ -19,7 +19,7 @@
     border:1px solid #ddd!important;
     min-height: 22px;
   }
-  input, textarea[cols='25']{
+  input, textarea[cols="25"]{
     background-image: none !important;
     width:7.5vw;
     display: block;
@@ -54,11 +54,11 @@
     font-weight: normal;
   }
   input ~ a:after{
-    content: 'Find';
+    content: "Find";
     display: inline-block;
   }
   #tipIcon:after{
-    content: 'Info';
+    content: "Info";
     display: inline-block;
   }
   a:hover:after, button:hover{
