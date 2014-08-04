@@ -4,7 +4,9 @@ body{
 width:77vw;
 margin:0 auto;
 }
-
+a{
+  color:#0078e7;
+}
 a.pure-button{
 @include user-select(inherit);
 -webkit-user-drag:inherit;
