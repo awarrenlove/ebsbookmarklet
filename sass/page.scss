@@ -1,34 +1,96 @@
 @import "compass";
-
+*{
+    box-sizing:border-box;
+}
 body {
-    width: 85vw;
+    width: 65vw;
     margin: 0 auto;
+    color:#444;
 }
 a {
     color: #0078e7;
 }
-a.pure-button {
-    @include user-select(inherit);
-    -webkit-user-drag: inherit;
+a:hover{
+    color: #444
+}
+main{
+    min-height: 92vh;
+}
+header{
+    padding-top: 1px;
+}
+section{}
+footer{
+    border-top:1px solid silver;
+    padding-top: 10px;
+}
+fieldset {
+    background-color: rgb(223, 236, 240);
+    border-width: 0 0 0 10px;
+    margin-bottom: 11px;
+    padding-bottom: 0;
+}
+fieldset:hover {
+    background-color: #eee;
+}
+legend{
+    background-color: white;
+    padding: 2px 5px;
 }
 
-.button-success, .button-error, .button-warning, .button-secondary {
+dl{
+    margin:0 10px 10px 0;
+    line-height: 1.5rem;
+    float:left;
+    span{
+        float: left;
+        width: 99px;
+        text-align: right;
+    }
+}
+dd{
+    margin-left: 111px;
+    padding-left: 9px;
+        width: 130px;
+
+}
+dd:hover{
+    background-color: white
+}
+.spans {
     color: white;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    padding-right: 3px;
 }
-.button-success {
+.green {
+    @extend .spans;
     background-color: rgb(28, 184, 65);/* this is a green */
 }
-.button-error {
+.maroon {
+    @extend .spans;
     background-color: rgb(202, 60, 60);/* this is a maroon */
 }
-.button-warning {
+.orange{
+    @extend .spans;
     background-color: rgb(223, 117, 20);/* this is an orange */
 }
-.button-secondary {
+.lightblue{
+    @extend .spans;
     background-color: rgb(66, 184, 221);/* this is a light blue */
 }
+.blue{
+    @extend .spans;
+    background-color: #0078e7;
+}
+.info{
+    display: inline-block;
+    margin-bottom: 10px;
+}
 
-dt{
-  margin-top:9px;
+.clearfix:after{
+    content:'';
+    clear:both;
+    display:block;
+    height: 0;
+    overflow: hidden;
 }
