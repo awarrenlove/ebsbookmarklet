@@ -2,7 +2,7 @@
 // @name EBSrestyle2
 // @namespace http://getsetbro.com/ebsbookmarklet/
 // @description Larger "Project" and "Task" fields.
-// @include http://stlcebs.perficient.com:8030/OA_HTML/(RF|OA).jsp/?*=809&
+// @include http://stlcebs.perficient.com:8030/OA_HTML/*.jsp?*=809&*
 // @version	1.0
 // @grant	none
 // ==/UserScript==
