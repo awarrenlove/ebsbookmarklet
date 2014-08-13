@@ -1,45 +1,34 @@
 @import "compass";
 
-body{
-width:85vw;
-margin:0 auto;
+body {
+    width: 85vw;
+    margin: 0 auto;
 }
-a{
-  color:#0078e7;
+a {
+    color: #0078e7;
 }
-a.pure-button{
-@include user-select(inherit);
--webkit-user-drag:inherit;
-}
-
-li{
-  margin-bottom: 1px;
+a.pure-button {
+    @include user-select(inherit);
+    -webkit-user-drag: inherit;
 }
 
-.button-success,
-.button-error,
-.button-warning,
-.button-secondary {
-color: white;
-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+.button-success, .button-error, .button-warning, .button-secondary {
+    color: white;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
-
 .button-success {
-background-color: rgb(28, 184, 65); /* this is a green */
+    background-color: rgb(28, 184, 65);/* this is a green */
 }
-
 .button-error {
-background-color: rgb(202, 60, 60); /* this is a maroon */
+    background-color: rgb(202, 60, 60);/* this is a maroon */
 }
-
 .button-warning {
-background-color: rgb(223, 117, 20); /* this is an orange */
+    background-color: rgb(223, 117, 20);/* this is an orange */
 }
-
 .button-secondary {
-background-color: rgb(66, 184, 221); /* this is a light blue */
+    background-color: rgb(66, 184, 221);/* this is a light blue */
 }
 
-.button-small {
-/*font-size: 80%;*/
+dt{
+  margin-top:9px;
 }
