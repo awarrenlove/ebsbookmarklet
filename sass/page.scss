@@ -19,15 +19,15 @@ main{
 header{
     padding-top: 1px;
 }
-section{}
+
 footer{
     border-top:1px solid silver;
-    padding-top: 10px;
+    padding: 5px 0;
+    margin-top: 8px
 }
 fieldset {
     background-color: rgb(223, 236, 240);
-    border-width: 0 0 0 10px;
-    margin-bottom: 11px;
+    border-width: 0 ;
     padding-bottom: 0;
 }
 fieldset:hover {
