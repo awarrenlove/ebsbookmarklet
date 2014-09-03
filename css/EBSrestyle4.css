@@ -1,0 +1,35 @@
+/*Timecard first column (header)*/
+#Hxctimecard table table table table tr td.x1x {
+    background-color: rgb(45, 109, 184);
+    border-color: black;
+}
+#Hxctimecard table table table table tr span.x1x {
+    background-color: rgb(45, 109, 184);
+    color: white;
+    font-weight: bold;
+}
+
+/*Mon - Fri*/
+#Hxctimecard table table table table tr .x1t:nth-child(n+6):nth-child(-n+10){
+    background-color: rgb(163, 194, 223);
+}
+
+
+/*Timecard last column (Daily time calculation)*/
+
+#Hxctimecard table table table table tr:nth-child(6n) td:nth-child(n+1):nth-child(-n+9) {
+    background-color: rgb(163, 194, 223);
+}
+
+#Hxctimecard table table table table tr:nth-child(6n) span.x24:nth-child(n+1):nth-child(-n+6) {
+    background-color: rgb(163, 194, 223);
+}
+
+/*button*/
+#Hxctimecard table table table table button.x7m {
+    background-color: rgb(102, 153, 204);
+    color: white;
+}
+#Hxctimecard table table table table button.x7m:hover {
+    background-color: rgb(163, 194, 223);
+}
