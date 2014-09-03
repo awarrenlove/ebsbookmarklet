@@ -1,8 +1,10 @@
 @import "compass";
 
 #Hxctimecard table table table table select,#Hxctimecard table table table table textarea{
-    min-width:275px;
     border:1px solid #999;
+}
+#Hxctimecard table table table table select{
+    min-width:275px;
 }
 #Hxctimecard .x1x,#Hxctimecard .x2a,#Hxctimecard .x24{
     font-weight:normal;
